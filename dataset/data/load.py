@@ -22,7 +22,7 @@ import drms
 import numpy as np
 import pandas as pd
 import sunpy.coordinates
-import sunpy.instr.aia
+import sunpy.map  # or another relevant module
 import sunpy.map
 import sunpy.physics.differential_rotation
 from astropy.io import fits

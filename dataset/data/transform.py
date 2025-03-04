@@ -12,7 +12,8 @@ import math
 
 from multiprocessing import Pool
 
-import dataset.util as util
+import dataset.data.util as util
+
 
 logger = logging.getLogger(__name__)
 

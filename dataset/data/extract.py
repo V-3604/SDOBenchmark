@@ -6,7 +6,7 @@ import pandas as pd
 
 import requests
 
-import dataset.util as util
+from . import util
 
 GOES_BASE_URL = "https://satdat.ngdc.noaa.gov/sem/goes/data/full"
 #GOES_START_MARKER = os.linesep + "data:" + os.linesep
